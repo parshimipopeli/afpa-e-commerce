@@ -51,8 +51,8 @@
 
 
 
-        <section id="main" >
-            <div id="menu-sm" >
+        <section id="main">
+            <div id="menu-sm">
                 <div class="container-fluid">
                     <div class="row ml-0 mr-0 pl-0 pr-0">
                         <div class="col-lg-8 offset-lg-2 bg-menu-btn pl-0 pr-0">
@@ -157,58 +157,64 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Composant PC
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="category.html">Cartes graphiques</a>
-                                    <a class="dropdown-item" href="category.html">Processeur</a>
-                                    <a class="dropdown-item" href="category.html">Carte Mère</a>
-                                    <a class="dropdown-item" href="category.html">Mémoire & Stockage</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Périphérique PC
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="category.html">Ecrans ordinateur</a>
-                                        <a class="dropdown-item" href="category.html">Claviers & souris</a>
-                                        <a class="dropdown-item" href="category.html">Casque / Micro / Enceintes</a>
-                                        <a class="dropdown-item" href="category.html">Manettes</a>
-                                    </div>
-                                </li>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Composant PC
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="category.html">Cartes graphiques</a>
+                                <a class="dropdown-item" href="category.html">Processeur</a>
+                                <a class="dropdown-item" href="category.html">Carte Mère</a>
+                                <a class="dropdown-item" href="category.html">Mémoire & Stockage</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Périphérique PC
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="category.html">Ecrans ordinateur</a>
+                                <a class="dropdown-item" href="category.html">Claviers & souris</a>
+                                <a class="dropdown-item" href="category.html">Casque / Micro / Enceintes</a>
+                                <a class="dropdown-item" href="category.html">Manettes</a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </nav>
             <!-- CORPS DE PAGE -->
-            <div class="container-fluid ">
 
-                    <form action="/action_page.php" class="was-validated">
-                        <div class="form-group">
-                            <label for="mail">Adresse mail:</label>
-                            <input type="mail" class="form-control" id="mail" placeholder="Enter votre adresse mail" name="mail"
-                                required>
-                            <div class="valid-feedback">Valid.</div>
-                            <div class="invalid-feedback">Please fill out this field.</div>
-                        </div>
-                        <div class="form-group">
-                            <label for="objet">Objet:</label>
-                            <input type="text" class="form-control" id="objet" placeholder="Enter l' objet de votre message"
-                                name="obj" required>
-                            <div class="valid-feedback">Valid.</div>
-                            <div class="invalid-feedback">Please fill out this field.</div>
-                        </div>
-                        <div class="form-group ">
-                            <label class="form-check-label">Votre message: </label>              
-                                <textarea name="message" id="message" cols="157" rows="10"></textarea>           
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-contact ">Submit</button>
-                    </form>
-            
+            <div class="container-fluid col-8 form-contact">
+                <div class="row col-12 ml-0 mr-0 pl-0 pr-0">
+                    <div class="col-lg-8 offset-lg-2  pl-0 pr-0">
+
+                            <h1>Bootstrap Tutorial</h1>
+                            <form action="/action_page.php" class="was-validated">
+                                <div class="form-group">
+                                    <label for="mail">Adresse mail:</label>
+                                    <input type="mail" class="form-control" id="mail"
+                                        placeholder="Enter votre adresse mail" name="mail" required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="objet">Objet:</label>
+                                    <input type="text" class="form-control" id="objet"
+                                        placeholder="Enter l' objet de votre message" name="obj" required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                                <div class="form-group ">
+                                    <label for="message">Votre message: </label>
+                                    <textarea name="message" id="message" cols="80" rows="10"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-contact ">Submit</button>
+                            </form>
+
+                    </div>
                 </div>
+            </div>
 
 
         </section>
@@ -218,44 +224,44 @@
 
 
         <footer class="container-fluid" id="footer">
-                <div class="row col-12">
-                    <div class=" col-12 col-sm-2 text-center hidden-footer-link">
-                        <a href="" class="text-white ">
-                            <p>Qui sommes-nous</p>
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-2 text-center hidden-footer-link">
-                        <a href="cgv" class="text-white">
-                            <p>Conditions génerales de vente</p>
-                        </a>
-                    </div>
-                    <div class="col-12 order-first order-sm-0 col-sm-2 offset-0 offset-sm-1 align-self-center">
-                        <div class="row justify-content-center">
-                                <div>
-                                    <a href=""><i class="fab fa-facebook-square white-icon  icon-footer"></i></a>
-                                </div>
-                                <div>
-                                        <a href=""><i class="fab fa-instagram white-icon icon-footer"></i></a>
-                                    </div>    
-                                <div>
-                                    <a href=""><i class="fab fa-twitter-square white-icon icon-footer"></i></a>
-                                </div>
-                                                            
+            <div class="row col-12">
+                <div class=" col-12 col-sm-2 text-center hidden-footer-link">
+                    <a href="" class="text-white ">
+                        <p>Qui sommes-nous</p>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-2 text-center hidden-footer-link">
+                    <a href="cgv" class="text-white">
+                        <p>Conditions génerales de vente</p>
+                    </a>
+                </div>
+                <div class="col-12 order-first order-sm-0 col-sm-2 offset-0 offset-sm-1 align-self-center">
+                    <div class="row justify-content-center">
+                        <div>
+                            <a href=""><i class="fab fa-facebook-square white-icon  icon-footer"></i></a>
                         </div>
+                        <div>
+                            <a href=""><i class="fab fa-instagram white-icon icon-footer"></i></a>
+                        </div>
+                        <div>
+                            <a href=""><i class="fab fa-twitter-square white-icon icon-footer"></i></a>
+                        </div>
+
                     </div>
-                    <div class="col-12 col-sm-2 offset-0 offset-sm-3 text-center hidden-footer-link">
-                        <a href="" class="text-white">
-                            <p>Mentions legales</p>
-                        </a>
-                    </div>
-        
-        
-        
-        
-        
+                </div>
+                <div class="col-12 col-sm-2 offset-0 offset-sm-3 text-center hidden-footer-link">
+                    <a href="" class="text-white">
+                        <p>Mentions legales</p>
+                    </a>
+                </div>
+
+
+
+
+
             </div>
         </footer>
-        
+
 
 
 
@@ -271,15 +277,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
         integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 
 </html>
-
-

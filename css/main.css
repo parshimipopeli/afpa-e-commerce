@@ -4,7 +4,7 @@
 }
 
 html {
-    background-color: white
+    background-color: #666666
 }
 
 .container-fluid {
@@ -149,6 +149,9 @@ a:hover {
 
 .hidden-footer-link{
     visibility: hidden;
+}
+.form-contact{
+    background-color: #eeeeee;
 }
 
 
