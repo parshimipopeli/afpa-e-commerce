@@ -150,6 +150,14 @@ a:hover {
 .hidden-footer-link{
     visibility: hidden;
 }
+.form-contact{
+    background-color: #eeeeee;
+    width: 67%;
+    border-radius: 8px;
+}
+.title-contact{
+    padding-top: 50px;
+}
 
 
 
