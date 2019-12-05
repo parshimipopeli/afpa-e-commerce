@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #eeeeee;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    background-color: #666666;
+}
+
+#logo{
+    max-height: 100px;
+}
+
+.green{
+    color:#01cc9b;
+}
+
+.white-icon{
+    color: white;
+    font-size: 2.2em;
+}
+
+.search-phone{
+    display: none;
+}
+
+.input-group-text{
+    background-color: #01cc9b;
+    border: black;
+}
+#footer{
+    background-color: #666666;
+}
+
+.icon-footer{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+
+
+    /* TAILLE TELEPHONE */
+    @media (max-width: 575.98px) {
+        .search-phone{
+            display: block;
+        } 
+        
+
+    }
+
+    /* TAILLE IPAD */
+    @media (min-width: 576px) and (max-width: 770px) {
+        
+    }
+
+    /* TAILLE ECRAN MOYEN */
+    @media (min-width: 771px) and (max-width: 991px) {
+        
+
+    }
+
+    /* TAILLE ECRAN GRAND */
+
+    @media (min-width: 992px) {
+        
+    }

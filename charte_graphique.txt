@@ -1,0 +1,5 @@
+Texte = noir ou blanc ( voir maquette )
+Lien = noir ou blanc ( hover gris clair )
+Vert = #01cc9b
+Gris clair = #eeeeee
+Gris foncé ( header/footer ) = #666666

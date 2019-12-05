@@ -1,0 +1,22 @@
+Mega-menu
+
+Onglet 1 : PC & Ordinateurs
+
+Catégorie 1 : Ordinateur / PC fixe
+Catégorie 2 : Ordinateur portable
+Catégorie 3 : Tablette tactile
+Catégorie 4 : OS & Logiciels
+
+Onglet 2 : Composant PC
+
+Catégorie 5 : Cartes graphiques
+Catégorie 6 : Processeur
+Catégorie 7 : Carte Mère
+Catégorie 8 : Mémoire / Stockage
+
+Onglet 3 : Périphérique PC
+
+Catégorie 9 : Ecrans ordinateur
+Catégorie 10 : Claviers & souris
+Catégorie 11 : Casque / Micro / Enceintes
+Catégorie 12 : Manettes
