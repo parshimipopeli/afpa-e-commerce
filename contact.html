@@ -183,45 +183,32 @@
                     </ul>
                 </div>
             </nav>
-            <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quas exercitationem beatae, esse
-                quae corrupti aliquam, quidem dolores quis repellendus laudantium repellat vitae alias in voluptatum ex
-                fugiat iure aut autem hic minima similique! Natus doloremque quaerat totam laborum illo eaque aliquid
-                laboriosam nostrum cumque. Veritatis distinctio mollitia eaque facilis, ipsum doloremque voluptate
-                beatae cumque quidem. Eos earum atque nisi porro cumque aspernatur ad eius totam! Consequuntur ab porro
-                autem ullam, saepe ipsam hic et voluptas animi expedita accusamus accusantium natus? Nobis labore
-                inventore nam assumenda, ea quidem. Iste dolores nesciunt temporibus sapiente, consequatur eligendi
-                beatae, nisi rem incidunt quos possimus! Minima perferendis inventore alias illo nobis dolor nulla
-                beatae eius delectus numquam eveniet assumenda, odit facere consequatur deleniti officiis laboriosam
-                necessitatibus sint. Accusamus doloremque nihil modi ducimus placeat ea voluptas distinctio quod esse
-                delectus rem consectetur, laudantium, totam itaque sint, odio expedita in tempore? Asperiores, porro
-                minus corrupti, tempora assumenda pariatur nisi veritatis non quos amet obcaecati eaque, sunt culpa.
-                Quo, nemo ullam amet odit vero fugiat itaque numquam nam excepturi ipsam eligendi corrupti praesentium,
-                iste eaque animi in distinctio. Veniam consectetur repellendus neque architecto a earum incidunt
-                voluptates! Consectetur impedit dolore harum repudiandae deleniti, expedita quidem eveniet modi illo
-                praesentium soluta optio veniam, odit iusto doloremque labore, tempore pariatur unde sequi esse
-                architecto quae totam officia! Suscipit maiores soluta eveniet obcaecati. Quo fugiat, placeat ratione
-                doloremque autem ducimus laborum quod optio ab aperiam sint mollitia perspiciatis magnam at, obcaecati
-                explicabo accusantium ullam tempore. Dicta harum minima, mollitia accusantium nostrum, illo laudantium
-                ullam distinctio iure, voluptates at quas iusto inventore officiis aperiam aliquid cum. Repellendus
-                dolorem tempora ipsum sint qui animi, mollitia voluptatibus eos delectus atque modi voluptates nesciunt
-                asperiores expedita minus pariatur! Rem voluptatum esse fugiat sit quos at magnam officiis, voluptas
-                enim facere dolorum deserunt recusandae itaque ducimus voluptatem consequuntur aperiam minus dolores
-                assumenda, doloremque officia. Vitae animi placeat dolorem mollitia recusandae totam cumque, sit ex
-                rerum, sequi ipsam id iusto nobis quis voluptatem rem ea explicabo deleniti distinctio natus, possimus
-                ducimus eligendi impedit dignissimos! Eius voluptate minima eum unde quae voluptatum voluptas enim
-                reprehenderit iure placeat ab provident doloremque explicabo, magni vel quia voluptatem ratione nobis
-                rerum! Iste nam sequi porro quas hic maiores similique deleniti magni molestias placeat iure enim amet
-                quia voluptatem neque mollitia optio excepturi, illum dolorum. Nisi quam quod, veritatis sequi fugiat
-                culpa minima architecto unde mollitia at deleniti dolor in, enim maxime nemo voluptas earum odit omnis
-                harum corrupti dolorem, fuga suscipit placeat rerum. Eum reiciendis blanditiis maxime quos! Beatae
-                assumenda eligendi nam rem accusamus, similique ut blanditiis? Similique, doloremque explicabo nostrum
-                libero aliquam dicta atque qui veniam architecto? Rerum facere ullam fugit minima ratione, nostrum
-                dolorum architecto dolor tempore vel! Excepturi aliquid veniam nobis in unde incidunt recusandae modi,
-                velit, fugiat perferendis eum repellendus voluptatem ducimus! Facere quod quis nisi ratione repudiandae
-                enim, iusto illo, et officia, excepturi deserunt sed ducimus dolore iure eos? Accusamus accusantium,
-                libero maiores saepe, quas vel nulla beatae nemo aliquam vitae laudantium ullam, doloremque repellendus!
-            </div>
+            <!-- CORPS DE PAGE -->
+            <div class="container-fluid ">
+
+                    <form action="/action_page.php" class="was-validated">
+                        <div class="form-group">
+                            <label for="mail">Adresse mail:</label>
+                            <input type="mail" class="form-control" id="mail" placeholder="Enter votre adresse mail" name="mail"
+                                required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="objet">Objet:</label>
+                            <input type="text" class="form-control" id="objet" placeholder="Enter l' objet de votre message"
+                                name="obj" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-group ">
+                            <label class="form-check-label">Votre message: </label>              
+                                <textarea name="message" id="message" cols="157" rows="10"></textarea>           
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-contact ">Submit</button>
+                    </form>
+            
+                </div>
 
 
         </section>
@@ -294,3 +281,5 @@
 </body>
 
 </html>
+
+
