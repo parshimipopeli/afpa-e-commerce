@@ -4,7 +4,7 @@
 }
 
 html {
-    background-color: #666666
+    background-color: #666666;
 }
 
 .container-fluid {
@@ -26,6 +26,22 @@ a:hover {
 
 #main {
     background-color: white;
+}
+
+#bloc{
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+}
+
+.info-bloc{
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
 }
 
 #logo {
@@ -87,14 +103,6 @@ a:hover {
     padding-left: 1px;
     padding-right: 1px;
     font-weight: bold;
-
-}
-.btn-secondary{
-    background-color: #01cc9b;
-    border-color: #666666;
-    padding: 10px;
-    margin: 10px;
-    font-weight: bold;
 }
 
 .btn-primary:focus {
@@ -107,6 +115,15 @@ a:hover {
 
     border-color: #666666;
 }
+
+.btn-secondary{
+    background-color: #01cc9b;
+    border-color: #666666;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
 .btn-secondary:focus {
     background-color: #01cc9b;
     border-color: #666666;
@@ -115,9 +132,8 @@ a:hover {
 
 .btn-secondary:hover {
     background-color: #00b48a;
-    font-weight: bold;
-
     border-color: #666666;
+    font-weight: bold;
 }
 
 .mega-menu-ul {
@@ -162,11 +178,38 @@ a:hover {
     margin-left: 4px;
     margin-right: 4px;
 }
-
+.btn-contact{
+    
+    margin-bottom: 20px;
+    margin-left: 94%;
+}
 
 .hidden-footer-link{
     visibility: hidden;
 }
+
+.breadcrumb{
+    background-color: transparent;
+}
+
+.spinner{
+    max-width: 40px;
+}
+
+.cart-img{
+    max-height: 150px;
+    max-width: 300px;
+}
+
+.product-name{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.price{
+
+}
+
 .form-contact{
     background-color: #eeeeee;
     width: 100%;
@@ -180,6 +223,16 @@ a:hover {
     
     margin-bottom: 20px;
     margin-left: 75%;
+}
+.compte-menu{
+    height: 400px;
+    border: 1px black;
+}
+.adress-customer{
+    height: 400px;
+
+    border: 1px black;
+
 }
 
 
@@ -200,8 +253,8 @@ a:hover {
 #menu-hamburger{
     display: block;
 }
-
 }
+
 /* TAILLE IPAD */
 @media (min-width: 576px) and (max-width: 770px) {
     .btn-contact{
@@ -222,7 +275,6 @@ a:hover {
     }
 }
 
-
 /* TAILLE ECRAN GRAND */
 
 @media (min-width: 992px) {
@@ -230,12 +282,10 @@ a:hover {
         width: 67%; 
         margin-top: 15px; 
         margin-bottom: 15px;
-        padding-top: 130px;
+        padding-top: 15px;
     }
     .btn-contact{
         margin-bottom: 20px;
         margin-left: 89%;
     }
-    
 }
-
