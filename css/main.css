@@ -86,6 +86,15 @@ a:hover {
     border-top-left-radius: 0rem;
     padding-left: 1px;
     padding-right: 1px;
+    font-weight: bold;
+
+}
+.btn-secondary{
+    background-color: #01cc9b;
+    border-color: #666666;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
 }
 
 .btn-primary:focus {
@@ -95,6 +104,18 @@ a:hover {
 
 .btn-primary:hover {
     background-color: #00b48a;
+
+    border-color: #666666;
+}
+.btn-secondary:focus {
+    background-color: #01cc9b;
+    border-color: #666666;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #00b48a;
+    font-weight: bold;
 
     border-color: #666666;
 }
@@ -141,19 +162,25 @@ a:hover {
     margin-left: 4px;
     margin-right: 4px;
 }
-.btn-contact{
-    
-    margin-bottom: 20px;
-    margin-left: 94%;
-}
+
 
 .hidden-footer-link{
     visibility: hidden;
 }
 .form-contact{
     background-color: #eeeeee;
+    width: 100%;
+    
 }
+.title-contact{
 
+    padding-top: 20px;
+}
+.btn-contact{
+    
+    margin-bottom: 20px;
+    margin-left: 75%;
+}
 
 
 /* TAILLE TELEPHONE */
@@ -173,14 +200,42 @@ a:hover {
 #menu-hamburger{
     display: block;
 }
+
+}
+/* TAILLE IPAD */
+@media (min-width: 576px) and (max-width: 770px) {
+    .btn-contact{
+        margin-left: 88%;
+    }
+    .form-contact{
+        width: 90%; 
+        margin-top: 15px; 
+        margin-bottom: 15px;
+    }
 }
 
-/* TAILLE IPAD */
-@media (min-width: 576px) and (max-width: 770px) {}
-
 /* TAILLE ECRAN MOYEN */
-@media (min-width: 771px) and (max-width: 991px) {}
+@media (min-width: 771px) and (max-width: 991px) {
+    .btn-contact{
+        margin-bottom: 20px;
+        margin-left: 70%;
+    }
+}
+
 
 /* TAILLE ECRAN GRAND */
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .form-contact{
+        width: 67%; 
+        margin-top: 15px; 
+        margin-bottom: 15px;
+        padding-top: 130px;
+    }
+    .btn-contact{
+        margin-bottom: 20px;
+        margin-left: 89%;
+    }
+    
+}
+
