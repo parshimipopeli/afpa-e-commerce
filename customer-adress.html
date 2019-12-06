@@ -51,73 +51,103 @@
 
 
 
-        
-            <!-- CORPS DE PAGE -->
-            <div class="container-fluid shadow-sm ">
-                <div class="row col-12 col-lg-4 compte-menu">
 
+        <!-- CORPS DE PAGE -->
+        <div class="container-fluid shadow-sm compte-menu">
+            <div class="row  ml-0 mr-0 pl-0 pr-0 ">
+                <div class="col-lg-4 pl-0 pr-0">
+                    <div class="infos">
+                        <h2>Mon compte menu</h2>
 
-
-
-                </div>
-                <div class="row col-12 col-lg-8 adresse-customer">
-
-
-
-
-
-                </div>
-                
+                        <form action="/action_page.php" class="was-validated">
+                            <div class="form-group">
+                                <label for="mail">Adresse mail :</label>
+                                <input type="mail" class="form-control" id="mail"
+                                    placeholder="Entrez votre adresse mail" name="mail" required>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="objet">Objet:</label>
+                                <input type="text" class="form-control" id="objet"
+                                    placeholder="Entrez l' objet de votre message" name="obj" required>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Entrez votre message :</label>
+                                <textarea class="form-control" id="message" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-secondary btn-contact shadow-sm">Envoyer</button>
+                            </div>
+                        </form>
 
                     </div>
                 </div>
+
+
+
+
             </div>
-
-
-        </section>
-
-
-
-
-
-        <footer class="container-fluid" id="footer">
-            <div class="row col-12">
-                <div class=" col-12 col-sm-2 text-center hidden-footer-link">
-                    <a href="" class="text-white ">
-                        <p>Qui sommes-nous</p>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-2 text-center hidden-footer-link">
-                    <a href="cgv" class="text-white">
-                        <p>Conditions génerales de vente</p>
-                    </a>
-                </div>
-                <div class="col-12 order-first order-sm-0 col-sm-2 offset-0 offset-sm-1 align-self-center">
-                    <div class="row justify-content-center">
-                        <div>
-                            <a href=""><i class="fab fa-facebook-square white-icon  icon-footer"></i></a>
-                        </div>
-                        <div>
-                            <a href=""><i class="fab fa-instagram white-icon icon-footer"></i></a>
-                        </div>
-                        <div>
-                            <a href=""><i class="fab fa-twitter-square white-icon icon-footer"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-sm-2 offset-0 offset-sm-3 text-center hidden-footer-link">
-                    <a href="" class="text-white">
-                        <p>Mentions legales</p>
-                    </a>
-                </div>
+            <div class="row col-12 col-lg-8 adresse-customer">
 
 
 
 
 
             </div>
-        </footer>
+
+
+        </div>
+    </div>
+    </div>
+
+
+    </section>
+
+
+
+
+
+    <footer class="container-fluid" id="footer">
+        <div class="row col-12">
+            <div class=" col-12 col-sm-2 text-center hidden-footer-link">
+                <a href="" class="text-white ">
+                    <p>Qui sommes-nous</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-2 text-center hidden-footer-link">
+                <a href="cgv" class="text-white">
+                    <p>Conditions génerales de vente</p>
+                </a>
+            </div>
+            <div class="col-12 order-first order-sm-0 col-sm-2 offset-0 offset-sm-1 align-self-center">
+                <div class="row justify-content-center">
+                    <div>
+                        <a href=""><i class="fab fa-facebook-square white-icon  icon-footer"></i></a>
+                    </div>
+                    <div>
+                        <a href=""><i class="fab fa-instagram white-icon icon-footer"></i></a>
+                    </div>
+                    <div>
+                        <a href=""><i class="fab fa-twitter-square white-icon icon-footer"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-sm-2 offset-0 offset-sm-3 text-center hidden-footer-link">
+                <a href="" class="text-white">
+                    <p>Mentions legales</p>
+                </a>
+            </div>
+
+
+
+
+
+        </div>
+    </footer>
 
 
 
